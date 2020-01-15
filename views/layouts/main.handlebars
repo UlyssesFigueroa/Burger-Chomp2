@@ -1,0 +1,38 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/f01e537613.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/css/burger_style.css">
+	<title>Burger Chomp</title>
+</head>
+
+<body>
+	<div class="container body-container">
+		<div class="row header-div">
+			<div class="col my-auto">
+				<h1> Burger Chomp</h1>
+			</div>
+		</div>
+		<div class="row main-div">
+			<div class="col">
+				<div class="row d-flex align-items-center border pt-2">
+					{{{ body }}}
+				</div>
+			</div>
+		</div>
+		<div class="row text-container">
+			<div class="col">
+				<form class="create-form">
+					<input type="text" id="new-burger" name="name" class="text-input">
+					<button type="submit" class="btn-lg">Create New Burger</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/assets/js/script.js"></script>
+</body>
