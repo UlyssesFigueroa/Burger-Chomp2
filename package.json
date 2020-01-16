@@ -1,30 +1,27 @@
 {
-  "name": "Burger-Chomp",
+  "name": "burger-chomp2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/UlyssesFigueroa/Burger-Chomp.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/UlyssesFigueroa/Burger-Chomp/issues"
-  },
-  "homepage": "https://github.com/UlyssesFigueroa/Burger-Chomp#readme",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
   },
-  "production": {
-    "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlyssesFigueroa/Burger-Chomp2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UlyssesFigueroa/Burger-Chomp2/issues"
+  },
+  "homepage": "https://github.com/UlyssesFigueroa/Burger-Chomp2#readme"
 }

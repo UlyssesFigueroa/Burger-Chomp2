@@ -4,7 +4,7 @@
                             {{#each burger}}
                             <div class="list-item">
                                 <div class="row d-flex align-items-center">
-                                    <div class="col-8">{{name}}</div>
+                                    <div class="col-8">{{burger_name}}</div>
                                     <div class="col-4"><button class="devour-btn btn btn-success btn-block mb-2" data-id="{{id}}" data-devour="true" type="submit">Devour it!</button></div>
                                 </div>
                             </div>
@@ -18,7 +18,7 @@
                             {{#each devoured}}
                             <div class="d-list-item">
                                 <div class="row d-flex align-items-center">
-                                    <div class="col-8">{{name}}</div>
+                                    <div class="col-8">{{burger_name}}</div>
                                     <div class="col-4"><button class="delete-btn btn btn-danger btn-block mb-2" data-id={{this.id}}>Delete</button></div>
                                 </div>
                             </div>
